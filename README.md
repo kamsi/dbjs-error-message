@@ -14,7 +14,6 @@ We use DbjsError object (with embeded coresponding DbjsObject) to prepare error 
 In order to retrieve an error message from module, one must provide DbjsError. If no specific error message field is defined on a given property the default error message for the error will be returned. For a property specific error message a special property containing error message must be provided. Such propery must follow naming convention error<DbjsErrorCodeCamelCase>.
 
 ```javascript
-// var dbjsError is an error which was created during validation (it contains a Knight object)
 var getErrorMessage = require('dbjs-error-message');
 var knight, dbjsError;
 dbjsError = new DbjsError();
