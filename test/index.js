@@ -8,7 +8,7 @@ module.exports = function (t, a) {
 		errorTestProp: {
 			type: db.String,
 			value: 'I am a vary bad value that yields errors',
-			errorSomethingWrong: "something is wrong with value '${errorTestProp}'"
+			errorSomethingWrong: "something is wrong with value '${object.errorTestProp}'"
 		}
 	});
 	dbjsObject = new db.ErrorTestObject();

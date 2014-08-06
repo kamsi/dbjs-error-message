@@ -15,5 +15,5 @@ module.exports = function (error) {
 	if (!errProperty || !desc[errProperty]) {
 		return error.message || '';
 	}
-	return template(desc[errProperty], error.object);
+	return template(desc[errProperty], error);
 };
