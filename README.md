@@ -21,7 +21,7 @@ dbjsError = new DbjsError();
   battleCry: {
     type: db.String,
     value: 'I will prevail!!!',
-    errorKnightIsDead: "The knight will never say '${battleCry}' again"
+    errorKnightIsDead: "The knight will never say '${object.battleCry}' again"
 } });
 
 knight = new db.Knight();
