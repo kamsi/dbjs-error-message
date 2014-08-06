@@ -38,6 +38,6 @@ getErrorMessage(dbjsError); //default error message
 
 ```
 
-## Tests
+## Tests [![Build Status](https://travis-ci.org/kamsi/dbjs-error-message.svg)](https://travis-ci.org/kamsi/dbjs-error-message)
 
 	$ npm test
