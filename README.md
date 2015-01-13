@@ -7,7 +7,7 @@
 
 ### Description
 
-We use DbjsError object (with embeded coresponding DbjsObject) to prepare error message.
+We use DbjsError object (with embedded coresponding DbjsObject) to prepare error message.
 
 ### Usage example
 
